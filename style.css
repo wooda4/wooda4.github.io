@@ -17,7 +17,7 @@ h1 {
 }
 nav{
   
-  border: 5px solid blue;
+  border: 5px solid cyan;
   border-radius: 20px;
 }
-a{color: lightblue;}
+a{color: cyan;}
