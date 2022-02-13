@@ -12,5 +12,12 @@ footer {
 h1 {
   color: White;
   font-family: cursive;
+  border: 5px solid white;
+  border-radius: 20px;
 }
-
+nav{
+  
+  border: 5px solid blue;
+  border-radius: 20px;
+}
+a{color: lightblue;}
