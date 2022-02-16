@@ -10,6 +10,8 @@ footer {
   color: white;
 }
 h1 {
+  position: center;
+  top: 45px;
   color: White;
   font-family: cursive;
   border-bottom: 5px solid ;
