@@ -16,19 +16,27 @@ h1 {
   
   text-align: center;
   top: 45px;
-  color: White;
+  font-size: 40px;
+  color: white;
   font-family: cursive;
   border-bottom: 5px solid;
 }
 nav{
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 5px;
   color: cyan
 }
-a{color: cyan;}
+button{
+  padding: 10px;
+  margin: 5px;
+  font-size: 20px
+}
+
 main{
   text-align: center;
-  
+  font-size: 20px;
   right: 125px;
   color: white;
 }
