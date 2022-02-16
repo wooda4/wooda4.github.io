@@ -19,10 +19,10 @@ h1 {
   color: White;
   font-family: cursive;
   border-bottom: 5px solid;
-}{
+}
+nav{
   text-align: center;
-  position: block;
-  margin: ;
+  margin: 5px;
   color: cyan
 }
 a{color: cyan;}
