@@ -10,25 +10,30 @@ img {
 }
 footer {
   color: white;
+  text-align: center;
 }
 h1 {
   
-  position: center;
+  text-align: center;
   top: 45px;
   color: White;
   font-family: cursive;
-  border-bottom: 5px solid ;
+  border-bottom: 5px solid;
 }
-nav{
+a{
+  text-align: center;
   position: block;
-  border: 5px solid cyan;
-  border-radius: 20px;
+  margin: 5px 10px;
+  border: 3px solid cyan;
+  border-radius: 15px 15px;
   display: block;
-  
+  max-width: 500px
+  color: cyan
 }
-a{color: cyan;}
+
 main{
-  position: fixed;
+  text-align: center;
+  
   right: 125px;
   color: white;
 }
