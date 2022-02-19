@@ -1,12 +1,12 @@
 body {
-  background: #ff651e;
-  color: cyan;
+  background: #40E0D0;
+  
 }
 img {
   display: block;
   margin: 0% auto;
   width: 100%;
-  max-width: 300px;
+  max-width: 350px;
 }
 footer {
   color: white;
