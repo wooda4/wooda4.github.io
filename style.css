@@ -18,6 +18,7 @@ h1 {
   text-align: center;
   top: 45px;
   font-size: 50px;
+   padding: 10px;
   color: white;
   font-family: cursive;
   border-bottom: 5px solid;
@@ -31,10 +32,9 @@ nav {
   margin: 5px;
 }
 button { 
-  
 box-shadow: 5px 5px 15px 5px #000000;
   padding: 10px;
-  margin: 10px;
+  margin: 10px auto;
   font-size: 20px;
   color: darkblue;
 }
