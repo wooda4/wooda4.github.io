@@ -21,7 +21,7 @@ h1 {
    padding: 10px;
   color: white;
   font-family: Impact, Charcoal, sans-serif;
-  border-bottom: 5px solid;
+  border-bottom: 7px dotted darkblue;
   border-color: darkblue;
   margin: 5px auto;
   text-shadow: 2px 2px 2px #1C6EA4;
