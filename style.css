@@ -21,7 +21,7 @@ h1 {
    padding: 10px;
   color: white;
   font-family: Impact, Charcoal, sans-serif;
-  border-bottom: 7px dotted darkblue;
+  border-bottom: 10px double darkblue;
   border-color: darkblue;
   margin: 5px auto;
   text-shadow: 2px 2px 2px #1C6EA4;
@@ -33,13 +33,13 @@ nav {
   margin: 5px;
 }
 button { 
-box-shadow: 5px 5px 15px 5px #000000;
-  border-radius: 10px;
+box-shadow: 5px 5px 10px 5px #333444;
+  border-radius: 30px;
   padding: 10px;
   margin: 20px auto;
   font-size: 20px;
   color: darkblue;
-  border: 5px dotted darkblue;
+  border: 5px double darkblue;
 }
 
 main {
