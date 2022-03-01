@@ -6,6 +6,7 @@ body {
   background: rgb(0 230 240);
 }
 img {
+  box-shadow: 5px 5px 10px 2.5px #1c6ea4;
   margin: px;
   display: block;
   margin: 0% auto;
