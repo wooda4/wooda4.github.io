@@ -43,9 +43,12 @@ button {
   font-size: 20px;
   color: var(--navy);
   border: 5px double var(--navy);
+  background-color: white;
 }
-button-hover{
-  
+a:hover{
+  border: 5px double white;
+  color: white;
+  background-color: var(--navy);
 }
 main {
   padding: 15px;
