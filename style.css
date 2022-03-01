@@ -45,7 +45,8 @@ button {
   border: 5px double var(--navy);
   background-color: white;
 }
-a:hover{
+button:hover{
+  transition: 1s;
   border: 5px double white;
   color: white;
   background-color: var(--navy);
