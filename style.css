@@ -31,7 +31,7 @@ h1 {
   border-bottom: 10px double var(--navy);
   border-color: var(--navy);
   margin: 5px auto;
-  text-shadow: 2px 2px 2px #1c6ea4;
+  text-shadow: 2px 2px 2px rgb(97 120 136);
 }
 nav {
   display: flex;
@@ -61,6 +61,6 @@ main {
   text-align: center;
   font-family: "Readex Pro", helvetica, sans-serif;
   font-size: 15px;
- text-shadow: 2px 2px 2px #1c6ea4;
+ text-shadow: 2px 2px 2px rgb(97 120 136);
   color: var(--navy);
 }
