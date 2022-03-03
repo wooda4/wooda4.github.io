@@ -4,10 +4,13 @@
 }
 body {
   background: rgb(0 217 255);
+  background-image: url("https://cdn.glitch.global/79744b49-89c7-41e5-b0bc-e6f04c656c50/Screen%20Shot%202022-03-01%20at%209.14.30%20PM.png?v=1646187373966");
+  background-size: 20px;
+  background-attachment: fixed;
 }
 img {
   box-shadow: 5px 5px 10px 2.5px #1c6ea4;
-  margin: px;
+  margin: 15px;
   display: block;
   margin: 0% auto;
   width: 100%;
@@ -16,10 +19,11 @@ img {
 }
 footer {
   margin: 20px;
-  padding: 15px;
-  font-size: 1.11vh;
+  padding: 70px;
+  font-size: 2vh;
   color: var(--navy);
   text-align: center;
+  text-shadow: 2px 2px 2px rgb(97 120 136);
 }
 h1 {
   text-align: center;
@@ -28,8 +32,7 @@ h1 {
   padding: 10px;
   color: var(--navy);
   font-family: "Stick No Bills", helvetica, sans-serif;
-  border-bottom: 10px double var(--navy);
-  border-color: var(--navy);
+ 
   margin: 5px auto;
   text-shadow: 2px 2px 2px rgb(97 120 136);
 }
