@@ -7,7 +7,9 @@ body {
   background-image: url("https://cdn.glitch.global/79744b49-89c7-41e5-b0bc-e6f04c656c50/Screen%20Shot%202022-03-01%20at%209.14.30%20PM.png?v=1646187373966");
   background-size: 30px;
   background-attachment: fixed;
+ 
 }
+
 img{
   margin: 15px;
   display: block;
