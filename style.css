@@ -3,118 +3,69 @@
   --navy: rgb(0 26 128);
 }
 body {
-  background-color: #dbe9ff;
-  background-size: 700px;
-  background-attachment: ;
-  margin: 0;
-}
-.center {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-button {
-  display: flex;
-  flex-direction: column;
-  margin: 5px;
-  box-shadow: 5px 5px 15px 2.5px #777777;
-  border-radius: 50px;
-  padding: 10px;
-  margin: 60px auto;
-  font-family: "Readex-pro", sans-serif;
-  font-size: 100px;
-  color: rgb(0 26 128);
-  border: 7.5px solid var(--navy);
-  background-color: white;
+  background: #3ac6f3;
+  background-image: url("https://cdn.glitch.global/79744b49-89c7-41e5-b0bc-e6f04c656c50/Screen%20Shot%202022-03-01%20at%209.14.30%20PM.png?v=1646187373966");
+  background-size: 30px;
+  background-attachment: fixed;
+  
 }
 
-button a {
-  text-decoration:none;
-}
-button:hover,
-button:focus {
-  transition: all 1s ease;
-  border: 7.5px solid white;
-  background-color: var(--navy);
-}
-
-button a:visited{
-  color: var(--navy);
-}
-button:hover a,
-button:focus a{
-  color: white
-}
-p{
-  font-size: 10px;
-}
-#logo {
+img{
+  margin: 15px;
+  display: block;
+  margin: 0% auto;
   width: 100%;
-  min-width: 500px;
-  max-width: 900px;
-  align-items: center;
-  font-family: "Stick No Bills", helvetica, sans-serif;
-  background-color: #dbe9ff;
-}
-h1 {
-  font-family: "Stick No Bills", helvetica, sans-serif;
-  font-size: 95px;
-  border: 2px #dbe9ff;
-  color: var(--navy);
-}
-h2 {
-  font-family: "Readex-pro", sans-serif;
-  font-size: 55px;
-  text-align: center;
-}
-h3 {
-  font-family: "Readex-pro", sans-serif;
-  font-size: 35px;
-  text-align: center;
-}
-h4 {
-  font-family:"Readex-pro", sans-serif;
-  font-size: 15px;
-  text-align: center;
+  max-width: 300px;
+  border-radius: 20px;
 }
 footer {
-  font-family: "Readex-pro", sans-serif;
   margin: 20px;
   padding: 70px;
-  font-size: 20px;
+  font-size: 13px;
   color: var(--navy);
   text-align: center;
   text-shadow: 2px 2px 2px rgb(97 120 136);
 }
-
-/*home page*/
-.home {
-  background: url("https://cdn.glitch.global/12269ec8-cdd2-4783-8e70-8b452dba1382/PXL_20211210_202919422_2.jpg?v=1649808529790");
-  background-size: cover;
- 
-}
-/*about*/
-img{ 
-  width: 100%;
-  min-width: 200px;
-  max-width: 100px;
-  
-}
-.links{
-  display: flex; 
-}
-/*portfolio*/
-.wrapper {
-  min-height: 100vh;
-  display: grid;
-  grid-template-rows: auto lfr auto;
-  grid-template-columns: 100%;
-}
-.flex{
-  display: flex;
-  
-}
-.art-work{
-  margin: 15px;
+h1 {
   text-align: center;
+  top: 45px;
+  font-size: 60px;
+  padding: 10px;
+  color: var(--navy);
+  font-family: "Stick No Bills", helvetica, sans-serif;
+
+  margin: 5px auto;
+  text-shadow: 2px 2px 2px rgb(97 120 136);
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+}
+button {
+  box-shadow: 5px 5px 15px 2.5px #1c6ea4;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 20px auto;
+  font-family: "Readex Pro", helvetica, sans-serif;
+  font-size: 20px;
+  color: var(--navy);
+  border: 5px double var(--navy);
+  background-color: white;
+}
+button:hover,
+button:focus {
+  transition: all 1s ease;
+  border: 5px double white;
+  color: white;
+  background-color: var(--navy);
+}
+main {
+  padding: 15px;
+  text-align: center;
+  font-family: "Readex Pro", helvetica, sans-serif;
+  font-size: 15px;
+  text-shadow: 2px 2px 2px rgb(97 120 136);
+  color: var(--navy);
 }
