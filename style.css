@@ -52,15 +52,15 @@ p {
 }
 #logo {
   height: 100%;
-  min-height: 100px;
-  max-height: 115px;
+  min-height: 150px;
+  max-height: 175px;
   align-items: center;
   font-family: "Stick No Bills", helvetica, sans-serif;
   background-color: #dbe9ff;
 }
 h1 {
   font-family: "Stick No Bills", helvetica, sans-serif;
-  font-size: 80px;
+  font-size: 55px;
   text-align: center;
   border: 2px #dbe9ff;
   color: var(--navy);
@@ -93,7 +93,7 @@ footer {
 }
 img {
   height: 100%;
-  min-height: 100px;
+  min-height: 200px;
   max-height: 215px;
 }
 .adjustments {
@@ -112,7 +112,7 @@ img {
 #me {
   height: 100%;
   min-height: 200px;
-  max-height: 115px;
+  max-height: 225px;
 }
 .h2 {
   display: flex;
